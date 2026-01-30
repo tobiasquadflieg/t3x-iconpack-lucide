@@ -1,0 +1,34 @@
+{
+  "name": "PPAM/iconpack-lucide",
+  "description": "This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the \"Lucide\" in TYPO3.",
+  "minimum-stability": "stable",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "CKEditor",
+    "icons",
+    "iconfont",
+    "webfont"
+  ],
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "authors": [
+    {
+      "name": "Tobias Quadflieg",
+      "role": "Developer",
+      "homepage": "https://www.ppam.de",
+      "email": "quadflieg@ppam.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "typo3/cms-core": ">=10.4 <15",
+    "quellenform/t3x-iconpack": ">=0.2 ^1.0"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "iconpack_lucide"
+    }
+  }
+}
