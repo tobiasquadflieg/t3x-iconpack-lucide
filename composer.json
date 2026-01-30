@@ -1,7 +1,6 @@
 {
-  "name": "PPAM/iconpack-lucide",
+  "name": "ppam/iconpack-lucide",
   "description": "This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the \"Lucide\" in TYPO3.",
-  "minimum-stability": "stable",
   "keywords": [
     "TYPO3",
     "extension",

@@ -1,0 +1,20 @@
+iconpack:
+  title: "Lucide Icons"
+  key: "lucide"
+  version: 0.563.0
+  url: "https://lucide.dev/"
+
+  renderTypes:
+
+    _default:
+      prefix: "lucide-"
+
+    svg:
+      source: "EXT:iconpack_lucide/Resources/Public/Vendor/Lucide/icons/"
+
+    svgInline:
+      source: "EXT:iconpack_lucide/Resources/Public/Vendor/Lucide/icons/"
+      attributes:
+        class: "lucide"
+
+  icons: "EXT:iconpack_lucide/Resources/Public/Vendor/Lucide/font/info.json"

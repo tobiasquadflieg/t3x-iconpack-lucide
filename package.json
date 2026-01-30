@@ -6,7 +6,7 @@
     "build": "bun run build:lucide",
     "build:lucide": "bun run Build/copy-lucide.ts",
     "postversion": "bun run Build/update-version.ts",
-    "update": "bun install && bun run build && bun run postversion"
+    "update-version": "bun install && bun run build && bun run postversion"
   },
   "devDependencies": {
     "@types/bun": "latest"
